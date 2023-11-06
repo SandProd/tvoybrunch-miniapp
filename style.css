@@ -17,7 +17,7 @@ body {
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 290px 250px 250px;
 }
 
 .img {
@@ -47,4 +47,23 @@ body {
 
 .usercard {
     text-align: center;
+}
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.quantity-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.quantity {
+    font-size: 18px;
+    margin: 0 10px;
 }

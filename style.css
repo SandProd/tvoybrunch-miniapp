@@ -13,12 +13,14 @@ body {
 
 .container {
     max-width: 390px;
+    margin: 20px auto; /* Добавление отступа сверху и снизу */
 }
 
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 290px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    gap: 20px; /* Добавление отступа между элементами */
 }
 
 .img {
@@ -26,8 +28,9 @@ body {
 }
 
 .item {
-    background-color:azure;
+    background-color: azure;
     text-align: center;
+    padding: 20px; /* Добавление отступов внутри .item */
 }
 
 .btn {
@@ -39,7 +42,7 @@ body {
     color: #fff;
     text-transform: uppercase;
 
-    transition: background .2 linear;
+    transition: background .2s linear;
 }
 
 .btn:hover {
@@ -49,6 +52,7 @@ body {
 .usercard {
     text-align: center;
 }
+
 .quantity-container {
     display: flex;
     align-items: center;
@@ -66,5 +70,6 @@ body {
 
 .quantity {
     font-size: 18px;
+    z-index: 2;
     margin: 0 10px;
 }

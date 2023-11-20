@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tvoybrunch-miniapp/static/css/main.431c217e.css",
+    "main.js": "/tvoybrunch-miniapp/static/js/main.d4691521.js",
+    "index.html": "/tvoybrunch-miniapp/index.html",
+    "main.431c217e.css.map": "/tvoybrunch-miniapp/static/css/main.431c217e.css.map",
+    "main.d4691521.js.map": "/tvoybrunch-miniapp/static/js/main.d4691521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431c217e.css",
+    "static/js/main.d4691521.js"
+  ]
+}

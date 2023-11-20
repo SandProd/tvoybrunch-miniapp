@@ -3,7 +3,7 @@ import './App.css';
 const tg = window.Telegram.WebApp;
 
 const onClose = () => {
-  tg.Close();
+  tg.close();
 }
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       App works
-      <button onClick={onClose()}>Close</button>
+      <button onClick={onClose}>Close</button>
     </div>
   );
 }
